@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.game-container {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #333;
+    font-size: 28px;
+}
+
+.scoreboard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+.score {
+    flex: 1;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.user-score {
+    border: 2px solid #2ecc71;
+}
+
+.computer-score {
+    border: 2px solid #e74c3c;
+}
+
+.round-info {
+    flex: 1;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 30px 0;
+}
+
+button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.btn-rock {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.btn-paper {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.btn-scissors {
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+.btn-reset {
+    background-color: #95a5a6;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #444;
+    padding: 15px;
+    border: 2px dashed #ddd;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+}
