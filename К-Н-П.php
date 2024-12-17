@@ -44,7 +44,7 @@ if (isset($_POST['choice'])) {
     $userChoice = $_POST['choice'];
 
     if (validate($userChoice)) {
-        $computerChoice = ['камінь', 'папір', 'ножниці'][rand(0, 2)];
+        $computerChoice = ['rock', 'paper', 'scissors'][rand(0, 2)];
         $result = playRound($userChoice, $computerChoice);
 
         if ($result === 'user') {
@@ -76,7 +76,6 @@ if (isset($_POST['reset'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/Style.css">
-
     <title>Камінь, Ножиці, Папір</title>
 </head>
 <body>
